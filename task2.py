@@ -14,3 +14,11 @@ That is worth $8.00 USD
 How many Canadian Dollars do you have? 1.25
 That is worth $1.00 USD
 """
+
+cad = float(input("Please enter Canadian dollars to convert to USD:  "))
+usd = float
+exchange_rate = 0.74
+usd = cad * exchange_rate
+
+
+print(f"That is worth ${usd} USD ")

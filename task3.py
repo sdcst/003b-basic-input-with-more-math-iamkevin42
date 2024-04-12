@@ -13,3 +13,18 @@ Enter the fift price: 7.99
 Your subtotal is $63.71 and your taxes total $7.65 for a total of $71.36
 
 """
+
+a = float(input("Enter your first item\n"))
+b = float(input("Enter your second item\n"))
+c = float(input("Enter your third item\n"))
+d = float(input("Enter your fourth item\n"))
+e = float(input("Finally enter your last item\n"))
+
+
+total = a + b + c + d + e 
+tax = total * 0.12
+roundedtax=round(tax,2)
+totaltotal = tax + total
+roundedtotaltotal=round(totaltotal, 2)
+
+print(f"Your subtotal is {total} and your taxes total to {roundedtax} for a total of {roundedtotaltotal}")
